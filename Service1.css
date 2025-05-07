@@ -1,0 +1,46 @@
+/* General Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Body styling */
+  body {
+    height: 100vh;
+    background-color: #eef1f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  
+  /* Container */
+  .container {
+    text-align: center;
+  }
+  
+  /* Services link styling */
+  .services-link {
+    display: inline-block;
+    padding: 14px 32px;
+    background-color: #0066cc;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .services-link:hover {
+    background-color: #004999;
+  }
+  
+  /* Responsive for smaller screens */
+  @media (max-width: 600px) {
+    .services-link {
+      padding: 12px 24px;
+      font-size: 16px;
+    }
+  }
+  
